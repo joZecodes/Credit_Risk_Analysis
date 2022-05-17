@@ -49,3 +49,8 @@
 
 </p>
 <br><br>
+
+## Summary
+In general, the models used to perform the credit risk analysis are not very precise in determining whether a credit risk is high or not.
+However, EasyEnsembleClassifier, which has a 92% recall rate, can detect almost all credit that banks and lenders consider high risk. Because of a low precision, the bank may still miss business opportunities by misdetecting low-risk credits as high risk, penalizing its credit strategy and negatively impacting its revenue.
+For those reasons I would not recommend the bank to use any of these models to predict credit risk.
